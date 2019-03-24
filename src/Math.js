@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import React, { Component } from "react";
+import { Route, Redirect } from "react-router-dom";
 
 class Math extends Component {
   add(a, b) {
-    return a + b;
+    return +a + +b;
   }
 
   subtract(a, b) {
